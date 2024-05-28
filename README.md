@@ -160,7 +160,8 @@ artelad tx staking edit-validator \
 
 برای دلیگیت کردن به خودتون
 ```
-artelad tx staking delegate $(artelad keys show wallet --bech val -a) 100000000000000000uart --from wallet --chain-id artela_11822-1 --gas-adjustment 1.5 --gas auto --gas-prices 0.025uart -y
+artelad tx staking delegate $(artelad keys show wallet --bech val -a) 1000000000000000000uart --from wallet --chain-id artela_11822-1 --gas-adjustment 1.5 --gas auto --gas-prices 0.025uart -y
+
 ```
 
 
