@@ -21,6 +21,8 @@ wget https://raw.githubusercontent.com/freshe4qa/artela/main/artela.sh && chmod 
 ```
 عدد 1 رو بزنید بعد اینتر
 
+اسم نود رو انتخاب کنید بعد اینتر
+
 صبر کنید نصب تموم شه
 
 حالا عدد 2 رو بزنید بعد اینتر
