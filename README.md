@@ -43,20 +43,24 @@ https://betanet-scan.artela.network/
 که از سایت بالا میتونید ببینید برید مرحله بعدی
 
 ** دقت کنید اگر بلاک ها اروم جلو میرفت وقتی
+```
 artelad status 2>&1 | jq .SyncInfo
+```
 کامند بالا رو هی برای چک کردن اجرا میکنید 
 
 کافیه یکبار نود رو ری استارت کنید
-
+```
 sudo systemctl restart artela
+```
 
 تا بلاک ها شروع کنن با سرعت سینک شدن
 
 -------------------------------------------------------------
 
 با کامند زیر و جایگذاری ادرس ولت ارتلا . ادرس ولت Evm رو با فرمت EIP 55 بگیرید و کپی کنید
-
+```
 artelad debug addr <YOUR_ART_ADDRESS>  
+```
 
  وارد دیسکورد بشید و فاست بگیرید
 
@@ -68,12 +72,14 @@ $request <YOUR_EVM_ADDRESS>
 
 برای چک کردن بالانس کامند پایین رو بزنید و جای $ARTELA_WALLET_ADDRESS  ادرس ولتتون رو بدید ( ادرس Artella . ادرس EVM رو نمیخواد ) . ادرسی رو میخواد که تو مرحله اول با اسکریپت ساختیم
 
-
-artelad query bank balances $ARTELA_WALLET_ADDRESS    
+```
+artelad query bank balances $ARTELA_WALLET_ADDRESS   
+``` 
 
 برای گرفتن کلید خصوصی ولت برای ایمپورت به متامسک کافیه کامند زیر رو بزنید                               
-
+```
 artelad keys unsafe-export-eth-key wallet
+```
 
 
 برای اضافه کردن شبکه ارتلا به متا مسک مشخصات زیر رو نیاز دارید
@@ -89,7 +95,9 @@ Block Explorer URL: https://betanet-scan.artela.network/
 
 
 با دستور 
+```
 artelad status 2>&1 | jq .SyncInfo
+```
 
 چک کنید اگر نودتون سینک بود کامل . اگر بلاک ها با شبکه یکی بود . برید مرحله ساخت ولیدیور 
 
@@ -153,18 +161,21 @@ artelad tx staking delegate $(artelad keys show wallet --bech val -a) 1000000000
 
 
 لیست Proposal ها 
-
+```
 artelad query gov proposals
+```
 
 اونایی که passed نبود و فعال بود میتونید با جایگذاری شماره Proposal + رای yes یا no با کد زیر رای بدید . الان فعال نیستن واسه همین ارور میگیرید
-
+```
 artelad tx gov vote 1 yes --from wallet --chain-id artela_11822-1 --gas-adjustment 1.5 --gas auto --gas-prices 0.025uart -y
+```
 
 
 
 برای دیدن مشخصات کامل ولیدیتور هم از کامند زیر استفاده کنید
-
+```
 artelad q staking validator $(artelad keys show wallet --bech val -a)
+```
 
 
 
