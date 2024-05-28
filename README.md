@@ -52,7 +52,7 @@ artelad status 2>&1 | jq .SyncInfo
 
 کافیه یکبار نود رو ری استارت کنید
 ```
-sudo systemctl restart artela
+sudo systemctl restart artelad
 ```
 
 تا بلاک ها شروع کنن با سرعت سینک شدن
