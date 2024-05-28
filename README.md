@@ -1,15 +1,15 @@
 # Artela
 
-Minimum Hardware Requirements
-4x CPUs; the faster clock speed the better
-8GB RAM
-100GB of storage (SSD or NVME)
+Minimum Hardware Requirements   
+4x CPUs; the faster clock speed the better   
+8GB RAM   
+100GB of storage (SSD or NVME)    
 
 
-Recommended Hardware Requirements
-8x CPUs; the faster clock speed the better
-16GB RAM
-1TB of storage (SSD or NVME)
+Recommended Hardware Requirements   
+8x CPUs; the faster clock speed the better    
+16GB RAM   
+1TB of storage (SSD or NVME)   
 
 
 ران کردن با اسکریپت
@@ -40,9 +40,9 @@ artelad status 2>&1 | jq .SyncInfo
 
 -------------------------------------------------------------
 
-هر زمانی نودتون سینک شد . Catching Up = False بود و بلاک ها با بلاک شبکه سینک بود کامل 
-https://betanet-scan.artela.network/
-که از سایت بالا میتونید ببینید برید مرحله بعدی
+هر زمانی نودتون سینک شد . Catching Up = False بود و بلاک ها با بلاک شبکه سینک بود کامل  
+https://betanet-scan.artela.network/    
+که از سایت بالا میتونید ببینید برید مرحله بعدی  
 
 ** دقت کنید اگر بلاک ها اروم جلو میرفت وقتی
 ```
@@ -66,10 +66,10 @@ artelad debug addr <YOUR_ART_ADDRESS>
 
  وارد دیسکورد بشید و فاست بگیرید
 
-https://discord.com/invite/artela
+https://discord.com/invite/artela  
 
 تو بخش فاست کافیه 
-$request <YOUR_EVM_ADDRESS>
+$request <YOUR_EVM_ADDRESS>  
 وارد کنید . هر 6 ساعت یک بار میتونید فاست بگیرید و یادتون نره که ادرس Eip 55 که به صورت EVM گرفتید رو جایگذاری کنید
 
 برای چک کردن بالانس کامند پایین رو بزنید و جای $ARTELA_WALLET_ADDRESS  ادرس ولتتون رو بدید ( ادرس Artella . ادرس EVM رو نمیخواد ) . ادرسی رو میخواد که تو مرحله اول با اسکریپت ساختیم
@@ -149,8 +149,8 @@ artelad tx staking edit-validator \
 
 از اپلیکیشین هایی مثل FileZilla از دو فایل در مسیر های زیر بک آپ بگیرید
 
- ~/.artelad/config/node_key.json
-~/.artelad/config/priv_validator_key.json
+ ~/.artelad/config/node_key.json   
+~/.artelad/config/priv_validator_key.json   
 
 
 ---------------------------------------------------
@@ -185,27 +185,27 @@ artelad q staking validator $(artelad keys show wallet --bech val -a)
 
 حتما فرم پایین رو پر کنید
 
-https://atkty6pceir.typeform.com/to/o4359Rsd
+https://atkty6pceir.typeform.com/to/o4359Rsd   
 
 
 
 
 لینک اسکنر ها 
 
-https://betanet-scan.artela.network/
-https://explorer.nodestake.org/artela-testnet/staking
-https://test.explorer.ist/artela/staking/
+https://betanet-scan.artela.network/   
+https://explorer.nodestake.org/artela-testnet/staking    
+https://test.explorer.ist/artela/staking/    
 
 
 لینک دیسکورد و سوشیال
 
-https://discord.com/invite/artela
-https://x.com/Artela_Network
+https://discord.com/invite/artela    
+https://x.com/Artela_Network    
 
 توضیحات این فاز
 
-https://artela.network/blog/artela-validator-registration-now-open
-https://fanatical-krypton-122.notion.site/Validator-Points-Instruction-a0228f1523d24e1b99ec12acd6acae8a
+https://artela.network/blog/artela-validator-registration-now-open     
+https://fanatical-krypton-122.notion.site/Validator-Points-Instruction-a0228f1523d24e1b99ec12acd6acae8a    
 
 
 
