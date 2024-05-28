@@ -86,11 +86,11 @@ artelad keys unsafe-export-eth-key wallet
 
 برای اضافه کردن شبکه ارتلا به متا مسک مشخصات زیر رو نیاز دارید
 
-Network Name: Artela Testnet
-New RPC URL: https://betanet-rpc1.artela.network
-ChainID: 11822
-Symbol: ART
-Block Explorer URL: https://betanet-scan.artela.network/
+Network Name: Artela Testnet   
+New RPC URL: https://betanet-rpc1.artela.network   
+ChainID: 11822   
+Symbol: ART   
+Block Explorer URL: https://betanet-scan.artela.network/    
 
 
 -------------------------------------------------------------
