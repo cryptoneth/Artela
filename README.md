@@ -11,5 +11,8 @@ Recommended Hardware Requirements
 16GB RAM
 1TB of storage (SSD or NVME)
 
-```wget https://raw.githubusercontent.com/freshe4qa/artela/main/artela.sh && chmod +x artela.sh && ./artela.sh```
+```
+wget https://raw.githubusercontent.com/freshe4qa/artela/main/artela.sh && chmod +x artela.sh && ./artela.sh
+
+```
 
