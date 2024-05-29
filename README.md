@@ -111,6 +111,8 @@ artelad tx staking create-validator \
 --moniker="crypton" \
 --website="https://x.com/cryptondegen_" \
 --details="there is no gravity here" \
+--security-contact "" \
+--identity "your-keybase-id" \
 --commission-rate="0.10" \
 --commission-max-rate="0.20" \
 --commission-max-change-rate="0.01" \
@@ -118,7 +120,8 @@ artelad tx staking create-validator \
 --gas="200000" \
 --chain-id="artela_11822-1" \
 --from=wallet \
---node tcp://47.254.66.177:26657
+--node tcp://localhost:26657 \
+-y
 ```
 
 بعد کد y رو بزنید و اینتر کنید
