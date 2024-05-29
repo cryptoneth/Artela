@@ -37,10 +37,12 @@ artelad config chain-id artela_11822-1
 artelad config keyring-backend test
 artelad config node tcp://localhost:26657
 sudo systemctl restart artelad
-artelad status 2>&1 | jq .SyncInfo
+
 
 ```
-
+```
+artelad status 2>&1 | jq .SyncInfo
+```
 -------------------------------------------------------------
 
 هر زمانی نودتون سینک شد . Catching Up = False بود و بلاک ها با بلاک شبکه سینک بود کامل  
