@@ -33,7 +33,10 @@ wget https://raw.githubusercontent.com/freshe4qa/artela/main/artela.sh && chmod 
 
 ```
 source $HOME/.bash_profile
-
+artelad config chain-id artela_11822-1
+artelad config keyring-backend test
+artelad config node tcp://localhost:26657
+sudo systemctl restart artelad
 artelad status 2>&1 | jq .SyncInfo
 
 ```
